@@ -43,7 +43,7 @@ public class DataProvider {
 
 	@Test
 	public void verifyValidLogin3() {
-		driver.findElement(By.xpath("//input[@name='userName']")).sendKeys("user3");
+		driver.findElement(By.xpath("//input[@name='userName']")).sendKeys("user32");
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("password3");
 		driver.findElement(By.xpath("//input[@name='submit']")).click();
 		WebElement successfullLoginMsg = driver.findElement(By.xpath("//h3[text()='Login Successfully']"));
@@ -59,6 +59,7 @@ public class DataProvider {
 		driver.get("https://demo.guru99.com/test/newtours/index.php");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
 	}
 
 	@org.testng.annotations.DataProvider(name = "myDataProvider")
