@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;waitconcept.FluentWait.java&apos; to &apos;FluentWaitConcept.java&apos;&#x0D;&#x0A;- Original project: &apos;June2022SeleniumSessions&apos;&#x0D;&#x0A;- Original element: &apos;waitconcept.FluentWait.java&apos;&#x0D;&#x0A;- Renamed element: &apos;waitconcept.FluentWaitConcept.java&apos;" description="Rename compilation unit &apos;FluentWait.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;waitconcept{FluentWait.java" name="FluentWaitConcept.java" references="false" stamp="1664596075848" version="1.0"/>
+</session>

@@ -1,0 +1,30 @@
+package javasessions;
+
+public class PracticeClass {
+
+  
+	   
+	 
+	   
+ 
+ 
+   
+	
+	
+	public static void main(String[] args) {
+
+		String str= "Welcome to Naveen Automation Labs !";
+		char aa[]= str.toCharArray();
+		
+		
+		char e=0;
+		
+		for (int i=0;i<aa.length;i++) {
+			if(aa[i]=="e") {
+				e++;
+				System.out.println(str);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,30 @@
+package oop_inheritance;
+
+import javasessions.Car;
+
+public class TestCar {
+
+	public static void main(String[] args) {
+
+
+		Car c = new Car();
+		c.start();
+		c.carFeature();
+		System.out.println("-----------------------");
+		
+		BMW b = new BMW();
+		b.start();
+		b.bmwEngine();
+		b.carStop();
+		b.carFeature();
+		
+		//BMW b1= (BMW) new Car();//ClassCastException is occurred
+		//b1.bmwEngine();
+		//Car is Parent call and BMW is child class
+		//c1 is class object ==> new BMW() Object reference name
+		
+		
+
+	}
+
+}

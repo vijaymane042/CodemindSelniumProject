@@ -1,0 +1,65 @@
+//31102022 maven
+
+
+package codemind.New.MavenProject.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class HomePage {
+	
+	WebDriver driver;
+	public HomePage(WebDriver driver) {
+	this.driver=driver;
+	}
+	
+		//By UserName= By.xpath("//input[@name='userName']") ;
+		WebElement userName ; 
+		WebElement password;
+		WebElement loginButton;
+		WebElement loginSuccessfully;
+
+		
+		public WebElement getUserName() {
+			return userName;
+		}
+
+		public void setUserName() {
+			userName = driver.findElement(By.xpath("//input[@name='userName']"));
+		}
+
+		public WebElement getpassword() {
+			return password;
+		}
+
+		public void setpassword() {
+			password = driver.findElement(By.xpath("//input[@name='password']"));
+		}
+
+		public WebElement getloginButton () {
+	    return loginButton ;
+		}
+		
+		public void setloginButton () {
+			loginButton=driver.findElement(By.xpath("//input[@name='submit']"));
+		}
+
+		public WebElement getLoginSuccessfully() {
+			return loginSuccessfully;
+		}
+
+		//public void setLoginSuccessfully(WebElement loginSuccessfully) {
+		//	this.loginSuccessfully = loginSuccessfully;
+		
+		public void setLoginSuccessfully(WebElement loginSuccessfully) {
+			loginSuccessfully = driver.findElement(By.xpath(" //h3[text()='Login Successfully']"));
+
+		}
+		
+		
+		
+		
+		
+
+	}

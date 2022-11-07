@@ -1,0 +1,25 @@
+package oop_inheritance;
+
+public class TestCar {
+
+	public static void main(String[] args) {
+
+
+		Car c = new Car();
+		c.start();
+		c.carFeature();
+		System.out.println("-----------------------");
+		
+		BMW b = new BMW();
+		b.start();
+		b.bmwEngine();
+		b.carStop();
+		b.carFeature();
+		
+		BMW b1= (BMW) new Car();
+		b1.bmwEngine();
+		
+		
+	}
+
+}

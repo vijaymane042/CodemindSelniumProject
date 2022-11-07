@@ -1,0 +1,12 @@
+package javasessions;
+
+public class MainMethodOverloading {
+
+	public static void main(String a[]  ) {
+		System.out.println(a[0]);
+	System.out.println("this is main method");
+	}
+//	public static void main(String vijay[] ) {
+//		System.out.println("this is main method");
+//		}
+}

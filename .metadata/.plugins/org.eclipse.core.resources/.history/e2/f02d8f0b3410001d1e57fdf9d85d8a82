@@ -1,0 +1,46 @@
+package oos_encapsulation;
+
+
+
+public class Mobile {
+
+  
+ 
+   
+
+
+
+	public static void main(String[] args) {
+	 
+		String a = "Welcome to Naveen Automation Labs";
+		  char text[] = a.toCharArray();
+		 
+		  StringBuffer st = new StringBuffer();
+		  int co =0;
+		  char b = ' ';
+		  for(int i=0;i<text.length;i++) {
+			  if(text[i]=='e') {
+				   b =text[i];
+				   co = co +1;
+				   
+				   
+				   if(co==3) {
+				
+					   System.out.println(b);
+					   System.out.println("Postion of "+b+ " is "+co);
+					  
+				   }
+				   //else {
+//					  
+//					  }
+				   
+				 
+			  }			 
+			  
+			   } 
+		  System.out.println("no of "+b+" present in the sentence is " +co);
+//		  String name= st.toString();
+//		  System.out.println(name);
+	}
+
+}

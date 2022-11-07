@@ -1,0 +1,13 @@
+package string_manipulation;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		String x = "Selenium automation";
+		String y=x.concat("tool");
+		System.out.println(x);
+		System.out.println(y);
+
+	}
+
+}

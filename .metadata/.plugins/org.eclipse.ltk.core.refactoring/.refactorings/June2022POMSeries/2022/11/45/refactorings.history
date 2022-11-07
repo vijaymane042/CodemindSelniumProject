@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;June2022POMSeries/Jenkinsfile&apos; to &apos;Jenkinsfile_sample&apos;" description="Rename resource &apos;Jenkinsfile&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Jenkinsfile" name="Jenkinsfile_sample" stamp="1667407943273" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;June2022POMSeries/JenkinsSample&apos; to &apos;Jenkinsfile&apos;" description="Rename resource &apos;JenkinsSample&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="JenkinsSample" name="Jenkinsfile" stamp="1667407956372" updateReferences="true"/>
+</session>

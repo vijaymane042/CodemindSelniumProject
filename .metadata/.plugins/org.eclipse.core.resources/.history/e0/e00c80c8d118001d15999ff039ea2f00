@@ -1,0 +1,23 @@
+package exceptionHandling;
+
+public class ThrowsKeyword {
+     	
+	public static void getNumber(int b) throws ArithmeticException{
+		System.out.println("hi");
+		int a =b/0;
+	}
+	public static void getDisplay() {
+		System.out.println("bye");
+		try {
+			
+		} catch (Exception ArithmeticException) {
+			System.out.println("exception handled");
+		}
+	}
+	public static void main(String[] args) {
+
+		getNumber(10);
+
+	}
+
+}

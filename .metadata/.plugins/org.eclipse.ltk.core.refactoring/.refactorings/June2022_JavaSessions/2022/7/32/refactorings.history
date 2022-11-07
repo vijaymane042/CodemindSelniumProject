@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;oos_encapsulation.Mobile&apos; to &apos;FindPositionInString&apos;&#x0D;&#x0A;- Original project: &apos;June2022_JavaSessions&apos;&#x0D;&#x0A;- Original element: &apos;oos_encapsulation.Mobile&apos;&#x0D;&#x0A;- Renamed element: &apos;oos_encapsulation.FindPositionInString&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Mobile&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;oos_encapsulation{Mobile.java[Mobile" matchStrategy="1" name="FindPositionInString" qualified="false" references="true" similarDeclarations="false" stamp="1659242783933" textual="false" version="1.0"/>
+</session>

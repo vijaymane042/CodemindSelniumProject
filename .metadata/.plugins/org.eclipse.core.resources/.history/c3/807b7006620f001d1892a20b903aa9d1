@@ -1,0 +1,24 @@
+package oop_inheritance;
+
+public class BMW extends Car {
+	
+	//Method name is same
+	//Parameters are same
+	//return types are same
+	@Override
+	public void start() {
+		System.out.println("Its BMW class method : start: BMW is start");
+		
+	}
+	
+	public void bmwEngine() {
+		System.out.println("Its BMW class method: bmwEngine: engine is start");
+	}
+	
+	public void carStop()
+	{
+		System.out.println("Its BMW class method: carStop: BMW is stop");
+	}
+    
+	
+}

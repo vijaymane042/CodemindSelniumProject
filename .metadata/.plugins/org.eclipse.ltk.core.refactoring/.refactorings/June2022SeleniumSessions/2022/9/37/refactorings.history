@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;xpathconcept.Xpath&apos; to &apos;CustomXpath&apos;&#x0D;&#x0A;- Original project: &apos;June2022SeleniumSessions&apos;&#x0D;&#x0A;- Original element: &apos;xpathconcept.Xpath&apos;&#x0D;&#x0A;- Renamed element: &apos;xpathconcept.CustomXpath&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Xpath&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;xpathconcept{Xpath.java[Xpath" matchStrategy="1" name="CustomXpath" qualified="false" references="true" similarDeclarations="false" stamp="1662659086354" textual="false" version="1.0"/>
+</session>

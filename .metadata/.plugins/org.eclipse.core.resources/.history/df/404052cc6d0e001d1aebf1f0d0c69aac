@@ -1,0 +1,15 @@
+package oop_inheritance;
+
+public class Car extends Vehical {
+
+	
+	public void start() {
+		System.out.println("Its car class method: Car is started ");
+	}
+	
+	public void carFeature() {
+		System.out.println("Its car class feature method: car feature ");
+	}
+	
+	
+}

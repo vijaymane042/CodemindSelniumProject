@@ -1,0 +1,53 @@
+//31112022 maven
+
+package codemind.New.MavenProject.testCases;
+
+import static org.testng.Assert.assertEquals;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import codemind.New.MavenProject.pages.HomePage;
+
+public class HomePageTestCase {
+
+	WebDriver driver;
+	HomePage homePage;
+
+	@BeforeMethod
+
+	public void initilizeBrowser() {
+		System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver.exe");               //Relative path 
+		
+		//System.setProperty("webdriver.chrome.driver","C:\\Users\\vijay\\eclipse-workspace\\CodemindSelniumProject\\src\\test\\java\\chromedriver.exe");
+
+		// WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	}
+
+	@Test
+	public void verifyValidLogin() {
+		driver.get("https://demo.guru99.com/test/newtours/index.php");
+		homePage = new HomePage(driver);
+		homePage.setUserName();
+		homePage.getUserName().sendKeys("test1");
+		homePage.setpassword();
+		homePage.getpassword().sendKeys("test1");
+		homePage.setloginButton();
+		homePage.getloginButton().click();
+		
+		//01112022
+		homePage.getLoginSuccessfullyMsg();
+		assertEquals(homePage.getLoginSuccessfullyMsg().getText(), "Login Successfully");
+		//Softassert is also known as verify 
+		SoftAssert softAssert = new SoftAssert();
+		softAssert.assertEquals(homePage.getLoginSuccessfullyMsg().getText(), "Login Successfully");
+	}
+
+}
